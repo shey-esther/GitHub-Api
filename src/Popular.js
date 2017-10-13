@@ -14,133 +14,134 @@ import {
 } from 'react-router-dom'
 
 
-const JavaScript = [
-    {
-      number: "#1",
-      url: "https://avatars0.githubusercontent.com/u/9892522?v=4",
-      link: "https://github.com/freeCodeCamp/freeCodeCamp",
-      title: "@freeCodeCamp",
-      parraf: "291107 stars",
-    },
-    {
-      number: "#1",
-      url: "https://avatars0.githubusercontent.com/u/2918581?v=4",
-      link: "https://github.com/twbs/bootstrap",
-      title: "@twbs",
-      parraf: "116326 stars",
-    },
-    {
-      number: "#1",
-      url: "https://avatars3.githubusercontent.com/u/69631?v=4",
-      link: "https://github.com/facebook/react",
-      title: "@facebook",
-      parraf: "78177 stars",
-    },
-    {
-      number: "#1",
-      url: "https://avatars1.githubusercontent.com/u/6128107?v=4",
-      link: "https://github.com/vuejs/vue",
-      title: "@vuejs",
-      parraf: "69806 stars",
-    }
+// const JavaScript = [
+//     {
+//       number: "#1",
+//       url: "https://avatars0.githubusercontent.com/u/9892522?v=4",
+//       link: "https://github.com/freeCodeCamp/freeCodeCamp",
+//       title: "@freeCodeCamp",
+//       parraf: "291107 stars",
+//     },
+//     {
+//       number: "#1",
+//       url: "https://avatars0.githubusercontent.com/u/2918581?v=4",
+//       link: "https://github.com/twbs/bootstrap",
+//       title: "@twbs",
+//       parraf: "116326 stars",
+//     },
+//     {
+//       number: "#1",
+//       url: "https://avatars3.githubusercontent.com/u/69631?v=4",
+//       link: "https://github.com/facebook/react",
+//       title: "@facebook",
+//       parraf: "78177 stars",
+//     },
+//     {
+//       number: "#1",
+//       url: "https://avatars1.githubusercontent.com/u/6128107?v=4",
+//       link: "https://github.com/vuejs/vue",
+//       title: "@vuejs",
+//       parraf: "69806 stars",
+//     }
   
-  ];
+//   ];
   
-  const Ruby = [
-    {
-      number: "#1",
-      url: "https://avatars0.githubusercontent.com/u/9892522?v=4",
-      link: "https://github.com/freeCodeCamp/freeCodeCamp",
-      title: "@freeCodeCamp",
-      parraf: "291107 stars",
-    },
-    {
-      number: "#1",
-      url: "https://avatars0.githubusercontent.com/u/2918581?v=4",
-      link: "https://github.com/twbs/bootstrap",
-      title: "@twbs",
-      parraf: "116326 stars",
-    },
-    {
-      number: "#1",
-      url: "https://avatars3.githubusercontent.com/u/69631?v=4",
-      link: "https://github.com/facebook/react",
-      title: "@facebook",
-      parraf: "78177 stars",
-    },
-    {
-      number: "#1",
-      url: "https://avatars1.githubusercontent.com/u/6128107?v=4",
-      link: "https://github.com/vuejs/vue",
-      title: "@vuejs",
-      parraf: "69806 stars",
-    }
+//   const Ruby = [
+//     {
+//       number: "#1",
+//       url: "https://avatars0.githubusercontent.com/u/9892522?v=4",
+//       link: "https://github.com/freeCodeCamp/freeCodeCamp",
+//       title: "@freeCodeCamp",
+//       parraf: "291107 stars",
+//     },
+//     {
+//       number: "#1",
+//       url: "https://avatars0.githubusercontent.com/u/2918581?v=4",
+//       link: "https://github.com/twbs/bootstrap",
+//       title: "@twbs",
+//       parraf: "116326 stars",
+//     },
+//     {
+//       number: "#1",
+//       url: "https://avatars3.githubusercontent.com/u/69631?v=4",
+//       link: "https://github.com/facebook/react",
+//       title: "@facebook",
+//       parraf: "78177 stars",
+//     },
+//     {
+//       number: "#1",
+//       url: "https://avatars1.githubusercontent.com/u/6128107?v=4",
+//       link: "https://github.com/vuejs/vue",
+//       title: "@vuejs",
+//       parraf: "69806 stars",
+//     }
   
-  ];
-  const Java = [
-    {
-      number: "#1",
-      url: "https://avatars0.githubusercontent.com/u/9892522?v=4",
-      link: "https://github.com/freeCodeCamp/freeCodeCamp",
-      title: "@freeCodeCamp",
-      parraf: "291107 stars",
-    },
-    {
-      number: "#1",
-      url: "https://avatars0.githubusercontent.com/u/2918581?v=4",
-      link: "https://github.com/twbs/bootstrap",
-      title: "@twbs",
-      parraf: "116326 stars",
-    },
-    {
-      number: "#1",
-      url: "https://avatars3.githubusercontent.com/u/69631?v=4",
-      link: "https://github.com/facebook/react",
-      title: "@facebook",
-      parraf: "78177 stars",
-    },
-    {
-      number: "#1",
-      url: "https://avatars1.githubusercontent.com/u/6128107?v=4",
-      link: "https://github.com/vuejs/vue",
-      title: "@vuejs",
-      parraf: "69806 stars",
-    }
+//   ];
+//   const Java = [
+//     {
+//       number: "#1",
+//       url: "https://avatars0.githubusercontent.com/u/9892522?v=4",
+//       link: "https://github.com/freeCodeCamp/freeCodeCamp",
+//       title: "@freeCodeCamp",
+//       parraf: "291107 stars",
+//     },
+//     {
+//       number: "#1",
+//       url: "https://avatars0.githubusercontent.com/u/2918581?v=4",
+//       link: "https://github.com/twbs/bootstrap",
+//       title: "@twbs",
+//       parraf: "116326 stars",
+//     },
+//     {
+//       number: "#1",
+//       url: "https://avatars3.githubusercontent.com/u/69631?v=4",
+//       link: "https://github.com/facebook/react",
+//       title: "@facebook",
+//       parraf: "78177 stars",
+//     },
+//     {
+//       number: "#1",
+//       url: "https://avatars1.githubusercontent.com/u/6128107?v=4",
+//       link: "https://github.com/vuejs/vue",
+//       title: "@vuejs",
+//       parraf: "69806 stars",
+//     }
   
-  ];
+//   ];
   
-  const CSS = [
-    {
-      number: "#1",
-      url: "https://avatars0.githubusercontent.com/u/9892522?v=4",
-      link: "https://github.com/freeCodeCamp/freeCodeCamp",
-      title: "@freeCodeCamp",
-      parraf: "291107 stars",
-    },
-    {
-      number: "#1",
-      url: "https://avatars0.githubusercontent.com/u/2918581?v=4",
-      link: "https://github.com/twbs/bootstrap",
-      title: "@twbs",
-      parraf: "116326 stars",
-    },
-    {
-      number: "#1",
-      url: "https://avatars3.githubusercontent.com/u/69631?v=4",
-      link: "https://github.com/facebook/react",
-      title: "@facebook",
-      parraf: "78177 stars",
-    },
-    {
-      number: "#1",
-      url: "https://avatars1.githubusercontent.com/u/6128107?v=4",
-      link: "https://github.com/vuejs/vue",
-      title: "@vuejs",
-      parraf: "69806 stars",
-    }
+//   const CSS = [
+//     {
+//       number: "#1",
+//       url: "https://avatars0.githubusercontent.com/u/9892522?v=4",
+//       link: "https://github.com/freeCodeCamp/freeCodeCamp",
+//       title: "@freeCodeCamp",
+//       parraf: "291107 stars",
+//     },
+//     {
+//       number: "#1",
+//       url: "https://avatars0.githubusercontent.com/u/2918581?v=4",
+//       link: "https://github.com/twbs/bootstrap",
+//       title: "@twbs",
+//       parraf: "116326 stars",
+//     },
+//     {
+//       number: "#1",
+//       url: "https://avatars3.githubusercontent.com/u/69631?v=4",
+//       link: "https://github.com/facebook/react",
+//       title: "@facebook",
+//       parraf: "78177 stars",
+//     },
+//     {
+//       number: "#1",
+//       url: "https://avatars1.githubusercontent.com/u/6128107?v=4",
+//       link: "https://github.com/vuejs/vue",
+//       title: "@vuejs",
+//       parraf: "69806 stars",
+//     }
   
-  ];
-class App extends Component {
+//   ];
+
+class Popular extends Component {
     render() {
       return (
         <div>
@@ -169,9 +170,8 @@ class App extends Component {
             </ul>
           </li>
         </div>
-  
       );
     }
   }
 
-  export default App;
+  export default Popular;

@@ -13,8 +13,7 @@ import {
   Redirect
 } from 'react-router-dom'
 
-class App extends Component {
-  render() {
+const Battle = ( {model}) => { 
     return (
       <div className="row">
         <form className="column">
@@ -40,4 +39,4 @@ class App extends Component {
       </div>
     );
   }
-}
+  export default Battle;
